@@ -1,64 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chill, Relax, Pause Spots</title>
+
+    <title>Manila Student Guide</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Chill, Relax, Pause Spots</h1>
-    <p>A Place to Unwind</p>
+    <!-- Header -->
+    <header class="hero">
 
-    <section>
-        <h2>Jiean Kurt C. Gumabon</h2>
+        <nav>
+            <div class="logo">Manila Student Guide</div>
 
-        <h2>Places for Students to Hang Out and Relax in Manila</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-        <article style="overflow: auto; margin-bottom: 30px;">
-            <h3>Rizal Park (Luneta)</h3>
-
-            <p>
-                Rizal Park is a spacious and peaceful place where students can relax,
-                walk around, enjoy the scenery, and spend time with friends. It is also
-                a great place to take a break from school without spending much money.
-            </p>
-
-            <img src="Pics/rizal-park.jpg"
-                 alt="Rizal Park"
-                 style="width: 150px; height: auto;">
-        </article>
-
-        <article style="overflow: auto; margin-bottom: 30px;">
-            <h3>Escolta</h3>
+        <div class="hero-content">
+            <h1>Discover Manila</h1>
 
             <p>
-                Escolta is a historic area known for its old buildings, unique atmosphere,
-                and growing creative community. Students can visit to explore, take photos,
-                discover interesting places, and hang out with friends.
+                Places for students to hang out, relax,
+                explore, and make memories.
             </p>
 
-            <img src="Pics/escolta.jpg"
-                 alt="Escolta"
-                 style="width: 200px; height: auto;">
-        </article>
+            <a href="#places" class="hero-button">
+                Explore Places
+            </a>
+        </div>
 
-        <article style="overflow: auto; margin-bottom: 30px;">
-            <h3>Manila Baywalk</h3>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="intro">
+
+            <h2>Places Worth Exploring</h2>
 
             <p>
-                Manila Baywalk is a popular place to relax while enjoying views of Manila Bay,
-                especially during sunset. It is a simple and accessible spot where students can
-                walk, talk with friends, and unwind after a busy day.
+                Looking for somewhere to go with your friends?
+                Check out these interesting places around Manila.
             </p>
 
-            <img src="Pics/baywalk.jpg"
-                 alt="Manila Baywalk"
-                 style="width: 150px; height: auto;">
-        </article>
+        </section>
 
-    </section>
+
+        <!-- Places -->
+        <section id="places" class="card-container">
+
+            <!-- Rizal Park -->
+            <article class="card">
+
+                <img
+                    src="images/rizal-park.jpg"
+                    alt="Rizal Park in Manila"
+                >
+
+                <div class="card-content">
+
+                    <span class="category">HISTORY & RELAXATION</span>
+
+                    <h3>Rizal Park</h3>
+
+                    <p>
+                        A historic and relaxing destination in the
+                        heart of Manila. Perfect for walking,
+                        taking photos, learning about history,
+                        and spending time with friends.
+                    </p>
+
+                    <a href="places/rizal-park.html">
+                        Read More →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Add your other places here -->
+            <article class="card">
+
+                <div class="placeholder">
+                    <span>Coming Soon</span>
+                </div>
+
+                <div class="card-content">
+
+                    <span class="category">COMING SOON</span>
+
+                    <h3>More Places</h3>
+
+                    <p>
+                        More student-friendly places around Manila
+                        will be added to the guide soon.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>Manila Student Guide</h2>
+
+        <p>
+            Explore. Relax. Discover Manila.
+        </p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Manila Student Guide
+        </p>
+
+    </footer>
 
 </body>
 </html>
