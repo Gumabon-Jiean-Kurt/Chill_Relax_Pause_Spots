@@ -135,3 +135,127 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+/* Suggest A Place */
+.suggest-place {
+    margin: 70px 0;
+    padding: 40px;
+    background: #151515;
+    border: 1px solid #292929;
+    border-top: 4px solid #d90429;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.suggest-place h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.suggest-place > p {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.suggest-place form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.suggest-place label {
+    color: #ddd;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.suggest-place input[type="text"],
+.suggest-place input[type="email"] {
+    width: 100%;
+    padding: 14px;
+    background: #0d0d0d;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.suggest-place input[type="text"]:focus,
+.suggest-place input[type="email"]:focus {
+    outline: 2px solid #d90429;
+    outline-offset: 2px;
+    border-color: #d90429;
+}
+
+.suggest-place fieldset {
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: #101010;
+}
+
+.suggest-place legend {
+    color: #d90429;
+    font-weight: bold;
+    padding: 0 8px;
+    text-transform: uppercase;
+}
+
+.suggest-place fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+    color: #ccc;
+    font-weight: normal;
+}
+
+.suggest-place input[type="radio"],
+.suggest-place input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #d90429;
+}
+
+.suggest-place form > p {
+    color: #ddd;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.suggest-place form > label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.suggest-place button {
+    margin-top: 25px;
+    padding: 15px 25px;
+    background: #d90429;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.suggest-place button:hover {
+    background: #b80322;
+}
+
+.suggest-place button:focus {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
+}
+
+@media (max-width: 800px) {
+    .suggest-place {
+        padding: 25px;
+    }
+}

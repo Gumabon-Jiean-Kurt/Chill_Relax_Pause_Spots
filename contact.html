@@ -43,18 +43,35 @@
 
         <h2>Send Us a Message</h2>
 
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+        ```html
+<form>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+    <fieldset>
+        <legend>Your details</legend>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="6" cols="40"></textarea><br><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
 
-            <button type="submit">Send Message</button>
-        </form>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <select id="subject" name="subject">
+            <option value="suggest-place">Suggest a place</option>
+            <option value="correct-detail">Correct a detail</option>
+            <option value="ask-question">Ask a question</option>
+            <option value="something-else">Something else</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" cols="40" required></textarea><br><br>
+
+        <button type="submit">Send message</button>
+
+    </fieldset>
+
+</form>
+
     </main>
 
     <footer>

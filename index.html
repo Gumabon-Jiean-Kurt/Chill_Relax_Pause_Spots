@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -159,6 +160,111 @@
 
         </section>
 
+
+        <!-- Suggest a Place -->
+        <section class="suggest-place">
+
+            <h2>Suggest a Place</h2>
+
+            <p>
+                Know a great place we should add to the guide?
+                Send us your suggestion below.
+            </p>
+
+            <form>
+
+                <label for="place-name">Place name</label>
+
+                <input
+                    type="text"
+                    id="place-name"
+                    name="place-name"
+                    required
+                >
+
+                <fieldset>
+
+                    <legend>Category</legend>
+
+                    <label for="food">
+                        <input
+                            type="radio"
+                            id="food"
+                            name="category"
+                            value="food"
+                        >
+                        Food
+                    </label>
+
+                    <label for="study-spot">
+                        <input
+                            type="radio"
+                            id="study-spot"
+                            name="category"
+                            value="study-spot"
+                        >
+                        Study spot
+                    </label>
+
+                    <label for="outdoors">
+                        <input
+                            type="radio"
+                            id="outdoors"
+                            name="category"
+                            value="outdoors"
+                        >
+                        Outdoors
+                    </label>
+
+                </fieldset>
+
+                <p>What's good about it?</p>
+
+                <label for="affordable">
+                    <input
+                        type="checkbox"
+                        id="affordable"
+                        name="good-points"
+                        value="affordable"
+                    >
+                    Affordable
+                </label>
+
+                <label for="wifi">
+                    <input
+                        type="checkbox"
+                        id="wifi"
+                        name="good-points"
+                        value="wifi"
+                    >
+                    Good Wi-Fi
+                </label>
+
+                <label for="quiet">
+                    <input
+                        type="checkbox"
+                        id="quiet"
+                        name="good-points"
+                        value="quiet"
+                    >
+                    Quiet
+                </label>
+
+                <label for="contact-email">Contact email</label>
+
+                <input
+                    type="email"
+                    id="contact-email"
+                    name="contact-email"
+                    required
+                >
+
+                <button type="submit">Suggest Place</button>
+
+            </form>
+
+        </section>
+
     </main>
 
 
@@ -188,3 +294,4 @@
 </body>
 
 </html>
+```
