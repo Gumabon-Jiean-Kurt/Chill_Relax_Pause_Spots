@@ -135,26 +135,26 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+ 
 /* Suggest A Place */
 .suggest-place {
     margin: 70px 0;
     padding: 40px;
-    background: #151515;
-    border: 1px solid #292929;
-    border-top: 4px solid #d90429;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: 4px solid #1f4d3a;
     border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .suggest-place h2 {
-    color: #fff;
+    color: #1f4d3a;
     font-size: 32px;
     margin-bottom: 10px;
-    text-transform: uppercase;
 }
 
 .suggest-place > p {
-    color: #aaa;
+    color: #333;
     margin-bottom: 30px;
 }
 
@@ -165,7 +165,7 @@ footer {
 }
 
 .suggest-place label {
-    color: #ddd;
+    color: #333;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -174,33 +174,33 @@ footer {
 .suggest-place input[type="email"] {
     width: 100%;
     padding: 14px;
-    background: #0d0d0d;
-    color: #fff;
-    border: 1px solid #333;
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 .suggest-place input[type="text"]:focus,
 .suggest-place input[type="email"]:focus {
-    outline: 2px solid #d90429;
+    outline: 2px solid #1f4d3a;
     outline-offset: 2px;
-    border-color: #d90429;
+    border-color: #1f4d3a;
 }
 
 .suggest-place fieldset {
     margin-top: 15px;
     padding: 20px;
-    border: 1px solid #333;
+    border: 1px solid #ccc;
     border-radius: 6px;
-    background: #101010;
+    background-color: #f4f4f4;
 }
 
 .suggest-place legend {
-    color: #d90429;
+    color: #1f4d3a;
     font-weight: bold;
     padding: 0 8px;
-    text-transform: uppercase;
 }
 
 .suggest-place fieldset label {
@@ -208,7 +208,7 @@ footer {
     align-items: center;
     gap: 10px;
     margin: 12px 0;
-    color: #ccc;
+    color: #333;
     font-weight: normal;
 }
 
@@ -216,11 +216,11 @@ footer {
 .suggest-place input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    accent-color: #d90429;
+    accent-color: #1f4d3a;
 }
 
 .suggest-place form > p {
-    color: #ddd;
+    color: #333;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 5px;
@@ -235,22 +235,21 @@ footer {
 .suggest-place button {
     margin-top: 25px;
     padding: 15px 25px;
-    background: #d90429;
-    color: #fff;
+    background-color: #1f4d3a;
+    color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
-    text-transform: uppercase;
     cursor: pointer;
 }
 
 .suggest-place button:hover {
-    background: #b80322;
+    background-color: #2d6b51;
 }
 
 .suggest-place button:focus {
-    outline: 3px solid #fff;
+    outline: 3px solid #b8e0c5;
     outline-offset: 3px;
 }
 
@@ -259,3 +258,4 @@ footer {
         padding: 25px;
     }
 }
+
