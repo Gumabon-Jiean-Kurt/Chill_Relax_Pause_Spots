@@ -1,4 +1,24 @@
+/* Variables */
+
+:root {
+
+    --brand: #1f4d3a;
+
+    --ink: #16382b;
+
+    --muted: #666;
+
+    --background: #f4f4f4;
+
+}
+
 /* General page styling */
+
+* {
+
+    box-sizing: border-box;
+
+}
 
 body {
 
@@ -6,9 +26,11 @@ body {
 
     font-family: Arial, sans-serif;
 
-    background-color: #f4f4f4;
+    line-height: 1.6;
 
-    color: #333;
+    background-color: var(--background);
+
+    color: var(--ink);
 
 }
 
@@ -16,7 +38,7 @@ body {
 
 header {
 
-    background-color: #1f4d3a;
+    background-color: var(--brand);
 
     color: white;
 
@@ -38,7 +60,7 @@ header h1 {
 
 nav {
 
-    background-color: #16382b;
+    background-color: var(--ink);
 
     padding: 12px;
 
@@ -94,7 +116,7 @@ main {
 
 main h2 {
 
-    color: #1f4d3a;
+    color: var(--brand);
 
 }
 
@@ -122,6 +144,8 @@ main h2 {
 
     border-radius: 10px;
 
+    border-left: 5px solid var(--brand);
+
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 
 }
@@ -140,7 +164,7 @@ main h2 {
 
 .card h3 {
 
-    color: #1f4d3a;
+    color: var(--brand);
 
 }
 
@@ -148,7 +172,7 @@ main h2 {
 
     display: inline-block;
 
-    background-color: #1f4d3a;
+    background-color: var(--brand);
 
     color: white;
 
@@ -210,7 +234,7 @@ td {
 
 th {
 
-    background-color: #1f4d3a;
+    background-color: var(--brand);
 
     color: white;
 
@@ -220,7 +244,7 @@ th {
 
 footer {
 
-    background-color: #16382b;
+    background-color: var(--ink);
 
     color: white;
 
@@ -244,7 +268,7 @@ footer {
 
     border: 1px solid #ccc;
 
-    border-top: 4px solid #1f4d3a;
+    border-top: 4px solid var(--brand);
 
     border-radius: 10px;
 
@@ -254,7 +278,7 @@ footer {
 
 .suggest-place h2 {
 
-    color: #1f4d3a;
+    color: var(--brand);
 
     font-size: 32px;
 
@@ -264,7 +288,7 @@ footer {
 
 .suggest-place > p {
 
-    color: #333;
+    color: var(--ink);
 
     margin-bottom: 30px;
 
@@ -282,7 +306,7 @@ footer {
 
 .suggest-place label {
 
-    color: #333;
+    color: var(--ink);
 
     font-weight: bold;
 
@@ -298,9 +322,9 @@ footer {
 
     padding: 14px;
 
-    background-color: #f4f4f4;
+    background-color: var(--background);
 
-    color: #333;
+    color: var(--ink);
 
     border: 1px solid #ccc;
 
@@ -316,11 +340,11 @@ footer {
 
 .suggest-place input[type="email"]:focus {
 
-    outline: 2px solid #1f4d3a;
+    outline: 3px solid var(--brand);
 
     outline-offset: 2px;
 
-    border-color: #1f4d3a;
+    border-color: var(--brand);
 
 }
 
@@ -334,13 +358,13 @@ footer {
 
     border-radius: 6px;
 
-    background-color: #f4f4f4;
+    background-color: var(--background);
 
 }
 
 .suggest-place legend {
 
-    color: #1f4d3a;
+    color: var(--brand);
 
     font-weight: bold;
 
@@ -358,7 +382,7 @@ footer {
 
     margin: 12px 0;
 
-    color: #333;
+    color: var(--ink);
 
     font-weight: normal;
 
@@ -372,13 +396,13 @@ footer {
 
     height: 18px;
 
-    accent-color: #1f4d3a;
+    accent-color: var(--brand);
 
 }
 
 .suggest-place form > p {
 
-    color: #333;
+    color: var(--ink);
 
     font-weight: bold;
 
@@ -404,7 +428,7 @@ footer {
 
     padding: 15px 25px;
 
-    background-color: #1f4d3a;
+    background-color: var(--brand);
 
     color: white;
 
@@ -428,7 +452,7 @@ footer {
 
 .suggest-place button:focus {
 
-    outline: 3px solid #b8e0c5;
+    outline: 3px solid var(--background);
 
     outline-offset: 3px;
 
